@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Palvo Jurnalis - Dokumentasi Kegiatan SMK Teknik PAL Surabaya">
+    <title>PALVO JURNALIS</title>
+    <link rel="icon" href="img/logohome/jurnalis.jpg" type="image/x-icon">
+    <!-- Font Awesome untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Loading Container -->
+    <div id="loadingContainer" class="loading-container">
+        <div class="loading-circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="menu-icon" id="menuToggle">
+            <i class="fas fa-bars" id="menuIcon"></i> <!-- Ikon menu -->
+        </div>
+        <div class="header-content">
+            <h1>PALVO JURNALIS</h1>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="menu">
+        <div class="nav-items-container">
+            <div class="nav-item" data-section="home">HOME</div>
+            <div class="nav-item" data-section="project">PROJECT</div>
+            <div class="nav-item" data-section="registration">PENDAFTARAN</div>
+        </div>
+        <div class="nav-item" id="mobileSidebarThemeToggle">
+            <div class="theme-toggle">
+                <div class="theme-toggle-track">
+                    <div class="theme-toggle-thumb"></div>
+                </div>
+                <span>Change Theme</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container" id="main-content">
+        <!-- Home Section (Default) -->
+        <section id="home" class="section">
+            <div class="home-header">
+                <div class="logo-container">
+                    <img src="img/logohome/jurnalis.jpg" alt="Logo Palvo Jurnalis" class="circular-logo">
+                </div>
+                <h2 class="home-title">HALO SOBAT PALVO</h2>
+            </div>
+
+            <div class="home-description">
+                <div class="description-column">
+                    <h3>Isi Website</h3>
+                    <p>Buat untuk menampilkan acara sekolah SMK Teknik PAL SURABAYA ataupun acara ekstrakurikuler.</p>
+                </div>
+                <div class="description-column">
+                    <h3>Isi Acara</h3>
+                    <p>1. Project E-Koran Palvo Jurnalis.</p>
+                    <p>2. Acara di SMK Teknik PAL SURABAYA.</p>
+                </div>
+                <div class="description-column">
+                    <h3>Misi</h3>
+                    <p>Tujuan saya adalah menciptakan pengalaman digital yang memukau, fungsional, dan bermakna. Saya percaya teknologi dapat mengubah cara kita berinteraksi dan menyelesaikan masalah.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section (Hidden by Default) -->
+        <section id="project" class="section hidden">
+            <div class="project-container">
+                <!-- Daftar Proyek -->
+                <div class="project-list-container">
+                    <ul class="project-list" id="projectList">
+                        <li data-project="e-koran" class="active">
+                            <i class="project-icon fas fa-newspaper"></i>
+                            <span class="project-label">E-KORAN</span>
+                        </li>
+                        <li data-project="coming-soon-1">
+                            <i class="project-icon fas fa-hourglass-half"></i>
+                            <span class="project-label">COMING SOON</span>
+                        </li>
+                        <li data-project="coming-soon-2">
+                            <i class="project-icon fas fa-hourglass-half"></i>
+                            <span class="project-label">COMING SOON</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Konten Proyek -->
+                <div class="project-content">
+                    <!-- Konten E-KORAN -->
+                    <div id="e-koran-content" class="project-detail active">
+                        <!-- Slider untuk E-KORAN -->
+                        <div class="slider-container">
+                            <div class="slider">
+                                <div class="slide active">
+                                	<h3 class="slide-title">JANUARI</h3>
+                                    <img src="img/januari/januari.jpg" alt="E-Koran Halaman 1">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">FEBRUARI</h3>
+                                    <img src="img/februari/februari.jpg" alt="E-Koran Halaman 2">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">MARET</h3>
+                                    <img src="img/maret/maret.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">APRIL</h3>
+                                    <img src="img/april/april.jpg" alt="E-Koran Halaman 2">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">MEI</h3>
+                                    <img src="img/mei/mei.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">JUNI</h3>
+                                    <img src="img/juni/juni.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">JULI</h3>
+                                    <img src="img/juli/juli.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">AGUSTUS (1)</h3>
+                                    <img src="img/agustus/agustus-1.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">AGUSTUS (2)</h3>
+                                    <img src="img/agustus/agustus-2.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">AGUSTUS (3)</h3>
+                                    <img src="img/agustus/agustus-3.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">SEPTEMBER (1)</h3>
+                                    <img src="img/september/september-1.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">SEPTEMBER (2)</h3>
+                                    <img src="img/september/september-2.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">OKTOBER (1)</h3>
+                                    <img src="img/oktober/oktober-1.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">OKTOBER (2)</h3>
+                                    <img src="img/oktober/oktober-2.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">NOVEMBER (1)</h3>
+                                    <img src="img/november/november-1.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">NOVEMBER (2)</h3>
+                                    <img src="img/november/november-2.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">NOVEMBER (3)</h3>
+                                    <img src="img/november/november-3.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                                <div class="slide">
+                                	<h3 class="slide-title">DESEMBER</h3>
+                                    <img src="img/desember/desember.jpg" alt="E-Koran Halaman 3">
+                                    
+                                </div>
+                            </div>
+                            <!-- Tombol Navigasi Slider -->
+                            <button class="slider-button prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="slider-button next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Konten COMING SOON 1 -->
+                    <div id="coming-soon-1-content" class="project-detail">
+                        <h2 class="coming-soon-title">COMING SOON 1</h2>
+                        <p class="coming-soon-text">Ini adalah konten untuk proyek COMING SOON 1.</p>
+                    </div>
+
+                    <!-- Konten COMING SOON 2 -->
+                    <div id="coming-soon-2-content" class="project-detail">
+                        <h2 class="coming-soon-title">COMING SOON 2</h2>
+                        <p class="coming-soon-text">Ini adalah konten untuk proyek COMING SOON 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pendaftaran Section (Hidden by Default) -->
+        <section id="registration" class="section hidden">
+            <div class="registration-container">
+                <h2>PENDAFTARAN</h2>
+                <div class="registration-info">
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: palvojurnalis@example.com</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <span>Nomor: +62 123 4567 890</span>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/palvo_jurnalis?igsh=MWxlMWZlaWdvbm15dQ==" class="registration-button">Daftar Sekarang</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/palvo_jurnalis?igsh=MWxlMWZlaWdvbm15dQ==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 PALVO JURNALIS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Popup Theme Changed -->
+    <div id="themePopup" class="popup hidden">
+        <div class="popup-content">
+            <span id="themeMessage">Tema berhasil diubah!</span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
